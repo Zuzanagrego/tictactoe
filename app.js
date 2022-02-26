@@ -20,7 +20,6 @@ const winningMessageTextElement = document.querySelector(
 );
 const winningMessageElement = document.getElementById("winningMessage");
 
-
 startGame();
 playAgain.addEventListener("click", startGame);
 
