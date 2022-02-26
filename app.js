@@ -22,6 +22,7 @@ const winningMessageElement = document.getElementById("winningMessage");
 
 
 startGame();
+
 playAgain.addEventListener("click", startGame);
 
 function startGame() {
